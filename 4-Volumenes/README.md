@@ -72,13 +72,13 @@ Volumen compartido entre contenedores
 Creamos el contenedor 1
 
 ```bash
-    docker run -it --name contenedor1 -v contenedor1:/volumen ubuntu
+    docker run -it --name contenedor1 -v contenedor_compartido:/volumen ubuntu
 ```
 
 Creamos el contenedor 2
 
 ```bash
-    docker run -it --name contenedor2 -v contenedor1:/volumen ubuntu
+    docker run -it --name contenedor2 -v contenedor_compartido:/volumen ubuntu
 ```
 
 ### Ejemplo 3
