@@ -96,7 +96,7 @@ Copiar archivos de local a contenedor y viceversa
 Creamos el contenedor 1
 
 ```bash
-    docker run -it --name contenedor1 -v contenedor1:/volumen ubuntu
+    docker run -it --name contenedor1 -v v_contenedor1:/volumen ubuntu
 ```
 
 Dentro del contenedor creamos un archivo dentro de la carpeta volumen
@@ -109,4 +109,4 @@ Copiamos el archivo
 
     ```bash
     docker cp contenedor1:/volumen/hola.txt .
-```
+    ```
