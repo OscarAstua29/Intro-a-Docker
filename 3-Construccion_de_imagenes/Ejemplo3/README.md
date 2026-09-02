@@ -57,7 +57,7 @@ Para generar la imagen debemos realizar la construcción del Dockerfile, lo pode
 
 Simple con las variables por defecto
    ```bash
-   docker build . -t simple-index
+   docker build -t simple-index .
  ```
 
 ó modificando los argumentos con ***--build-arg***
