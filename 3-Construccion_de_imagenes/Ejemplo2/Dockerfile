@@ -8,7 +8,7 @@ WORKDIR /app
 RUN python -m pip install --upgrade pip
 
 # 4. Creamos LABELS
-LABEL maintainer="Oscar Astua ig:astua_29"
+LABEL maintainer="Oscar Astua"
 LABEL description="Calculadora interactiva en Python. Ejecutar con: docker run -it calcu"
 
 # 5. Copiamos el script Python que queremos ejecutar
