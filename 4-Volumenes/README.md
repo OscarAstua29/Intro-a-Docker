@@ -102,7 +102,7 @@ Creamos el contenedor 1
 Dentro del contenedor creamos un archivo dentro de la carpeta volumen
 
 ```bash
-    docker touch hola.txt
+ touch hola.txt
 ```
 
 Copiamos el archivo
