@@ -5,7 +5,7 @@ ARG UBUNTU_VERSION=22.04
 FROM ubuntu:${UBUNTU_VERSION}
 
 # 3. Añadir metadata con LABELS para mantener info sobre la imagen
-LABEL maintainer="Oscar Astua ig:astua_29"
+LABEL maintainer="Oscar Astua"
 LABEL version="1.0"
 LABEL description="Imagen Ubuntu con Nginx y variables de entorno definidas"
 
